@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    int x = 0, band = 0;
+    char texto[100], texto2[100];
+    
+    printf("Ingrese la primera cadena de texto:\n");
+    scanf("%s", texto);
+    
+    printf("Ingrese la segunda cadena de texto:\n");
+    scanf("%s", texto2);
+
+    while (texto[x] != '\0' && texto2[x] != '\0') {
+        if (texto[x] != texto2[x]) {
+            printf("Las cadenas de texto no son iguales\n");
+            band = 1;
+            break;
+        }
+        x++;
+    }
+
+    if (band == 0) {
+        printf("Las cadenas de texto son iguales\n");
+    }
+    
+    return 0;
+}
