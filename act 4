@@ -1,0 +1,43 @@
+/*#include <stdio.h>
+
+int main (){
+	
+	int v1, v2, v3;
+	int i;
+	printf("Ingresa el valor de v1:");
+	scanf("%d",&v1);
+	printf("Ingresa el valor de v2:");
+	scanf("%d",&v2);
+	printf("Ingresa el valor de v3:");
+	scanf("%d",&v3);
+	
+	for (i=1;i<=3;i++)
+	pritnf("%d", v1);
+	
+
+	
+	return 0;
+}*/
+#include <stdio.h>
+
+int main() {
+    int v1, v2, v3;
+    int i;
+    printf("Ingresa el valor de v1: ");
+    scanf("%d", &v1);
+    printf("Ingresa el valor de v2: ");
+    scanf("%d", &v2);
+    printf("Ingresa el valor de v3: ");
+    scanf("%d", &v3);
+
+    for (i = 1; i <= 3; i++) {
+      /*  printf("%d ", v1); 
+         printf("%d ", v2); 
+          printf("%d ", v3); */
+    }
+     printf("%d ", v1); 
+         printf("%d ", v2); 
+          printf("%d ", v3); 
+
+    return 0;
+}
