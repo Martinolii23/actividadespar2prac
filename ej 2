@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num;
+    int arreglo[5];
+    
+    printf("Ingresa 5 numeros:\n");
+
+    for (int i = 0; i < 5; i++) {
+        scanf("%d", &arreglo[i]);
+       printf("presiona enter\n");
+    }
+
+   // printf("Los números ingresados son:\n");
+    for (int i = 0; i < 5; i++) {
+        printf("\nLos caracteres ingresados son:  %d\n\n", arreglo[i]);
+    }
+    for(int i=0;i<5;i++){
+    printf(" %d,",arreglo[i]*2);
+    }
+    
+    
+    return 0;
+}
