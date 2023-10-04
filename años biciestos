@@ -1,0 +1,21 @@
+#include <stdio.h>
+//años bisiestos 
+//*nota no podia imprimir la ñ intente arreglarlo pero
+//no quise agregar una libreria que no hemos visto
+
+int main (){
+	int a = 0;
+	
+	printf("Introduzaca un año:");
+	scanf("%d", &a);
+	
+	if ((a%4==0)&& (a%100!=0) || a%400==0 ){
+		printf("Es  bisiesto");	
+	}
+	else{
+		printf("no es  bisiesto");
+	}
+	
+	
+	return 0;
+}
